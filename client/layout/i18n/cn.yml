@@ -1,26 +1,24 @@
 en-US:
   title: iconfont - icon fonts generator
-  description: Tool to build custom fonts with icons.
+  description: 自定义图标字体工具
   desc_long: >
-    An easy way to create a custom icon font for your site. Select
-    images from our large collection, and make a webfont pack with one click.
+    方便生成自定义图标字体，选择你需要的图标，然后就可以直接下载包含字体文件的demo了
 
-  menu_feedback: Feedback
+  menu_feedback: 反馈
   menu_discuss: Ask in Google Groups
-  menu_bugreports: Report bugs at Github
+  menu_bugreports: 反馈bug
   menu_bugreports_help: >
     We prefer to communicate via Github. Share you ideas with us there.
     If you still don't have a Github account - it's time to join the biggest
     open source community!
-  menu_how_to_help: How to help us
+  menu_how_to_help: 如何提交自己的字体
 
-  menu_donate: donate
+  menu_donate: 腾讯设计通道
   menu_donate_help: >
-    Fontello is not done for money, but feel free to
-    show us how much you like it :)
+    腾讯设计通道出品
 
   twitter_follow: Follow
   twitter_share: Tweet
   twitter_text: Fontello - icon webfonts generator, open source
 
-  nojs_alert: Fontello will not work without javascript!
+  nojs_alert: iconfont需要你的浏览器支持javascript!
