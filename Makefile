@@ -6,20 +6,13 @@ PATH := $(PATH):./support/font-builder/support/ttfautohint/frontend
 PATH := $(PATH):./support/font-builder/bin
 
 
-FONTS         += fontelico.font
-FONTS         += awesome-uni.font
+FONTS         += qzone.font
+FONTS         += solaaoi.font
+FONTS         += tencent.font
+FONTS         += qzone-touch.font
+FONTS         += qq-hd.font
+FONTS         += isux-blog.font
 FONTS         += entypo
-FONTS         += typicons.font
-FONTS         += iconic-uni.font
-FONTS         += modernpics.font
-FONTS         += meteocons.font
-FONTS         += mfglabs.font
-FONTS         += maki.font
-FONTS         += zocial.font
-FONTS         += brandico.font
-FONTS         += elusive.font
-FONTS         += linecons.font
-FONTS         += websymbols-uni.font
 FONT_CONFIGS   = $(foreach f,$(FONTS),src/${f}/config.yml)
 
 FONT_DIR 			= ./assets/embedded_fonts
