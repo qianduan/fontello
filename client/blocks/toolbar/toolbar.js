@@ -7,8 +7,8 @@ var ko = require('knockout');
 var savedConfig = null;
 
 
-var GLYPH_SIZE_MIN = 12;
-var GLYPH_SIZE_MAX = 30;
+var GLYPH_SIZE_MIN = 30;
+var GLYPH_SIZE_MAX = 54;
 
 
 ////////////////////////////////////////////////////////////////////////////////

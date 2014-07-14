@@ -8,7 +8,7 @@ module.exports = {
   type: 'object',
   additionalProperties: false,
   properties: {
-    name:             { type: 'string',   required: false, default: 'fontello' },
+    name:             { type: 'string',   required: false, default: 'iconfont' },
     css_prefix_text:  { type: 'string',   required: false, default: 'icon-' },
     css_use_suffix:   { type: 'boolean',  required: false, default: false },
     hinting:          { type: 'boolean',  required: false, default: false },

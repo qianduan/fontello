@@ -166,7 +166,7 @@ module.exports = function fontConfig(clientConfig) {
   if (!_.isEmpty(clientConfig.name)) {
     fontname = String(clientConfig.name).replace(/[^a-z0-9\-_]+/g, '-');
   } else {
-    fontname = 'fontello';
+    fontname = 'iconfont';
   }
 
   glyphsInfo = collectGlyphsInfo(clientConfig);
@@ -176,7 +176,7 @@ module.exports = function fontConfig(clientConfig) {
     return null;
   }
 
-  var defaultCopyright = 'Copyright (C) ' + new Date().getFullYear() + ' by original authors @ fontello.com';
+  var defaultCopyright = 'Copyright (C) ' + new Date().getFullYear() + ' by original authors @ iconfont.io';
 
   return {
     font: {
