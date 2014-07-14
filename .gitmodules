@@ -1,6 +1,6 @@
 [submodule "src/entypo"]
 	path = src/entypo
-	url = git://github.com/fontello/entypo.git
+	url = https://github.com/fontello/entypo.git
 [submodule "src/qzone.font"]
 	path = src/qzone.font
 	url = https://github.com/isux/qzone.font.git
