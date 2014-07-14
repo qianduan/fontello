@@ -114,7 +114,7 @@ function createTask(clientConfig, afterRegistered, afterComplete) {
     , clientConfig:  clientConfig
     , builderConfig: builderConfig
     , cwdDir:        builderCwdDir
-    , tmpDir:        path.join(builderTmpDir, 'fontello-' + fontId.substr(0, 8))
+    , tmpDir:        path.join(builderTmpDir, 'iconfont-' + fontId.substr(0, 8))
     , output:        outputFile
     , timestamp:     Date.now()
     , callbacks:     []
@@ -200,7 +200,7 @@ module.exports = _.once(function (N) {
   // Init internals at first call.
   builderVersion   = N.runtime.version;
   builderLogger    = N.logger.getLogger('font');
-  builderTmpDir    = path.join(os.tmpDir(), 'fontello');
+  builderTmpDir    = path.join(os.tmpDir(), 'iconfont');
   builderCwdDir    = N.runtime.mainApp.root;
   builderOutputDir = path.join(N.runtime.mainApp.root, 'public', 'download');
   builderBinary    = path.join(N.runtime.mainApp.root, 'bin', 'generate_font.sh');
