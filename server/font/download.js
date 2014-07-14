@@ -59,7 +59,7 @@ module.exports = function (N, apiPath) {
         })
         .on('stream', function () {
             // Beautify zipball name.
-          var filename = 'filename=fontello-' + env.params.id.substr(0, 8) + '.zip';
+          var filename = 'filename=iconfont-' + env.params.id.substr(0, 8) + '.zip';
           res.setHeader('Content-Disposition', 'attachment; ' + filename);
         })
         .on('end', function () {
