@@ -1,5 +1,5 @@
-en-US:
-  system_error: 'Error #{code}'
-  invalid_csrf_token: Security token expired. Pease, try again.
-  application_fuckup: Application Error. Try again later.
-  communication_timeout: Communication problems. Try again later.
+zh-CN:
+  system_error: '错误码： #{code}'
+  invalid_csrf_token: 安全token过期。请重试。
+  application_fuckup: 应用出错，请稍后再试。
+  communication_timeout: 通信问题，请稍后再试。

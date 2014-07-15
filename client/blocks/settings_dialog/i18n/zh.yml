@@ -1,39 +1,35 @@
-en-US:
-  title: Advanced font settings
+zh-CN:
+  title: 高级字体设置
 
-  fieldset_options: Options
-  hinting: Hinting
-  hinting_enable: enable
+  fieldset_options: 选项
+  hinting: 微调(Hinting)
+  hinting_enable: 启用
   hinting_help: >
-    Adding font hinting can make glyphs sharper on smaller scales,
-    but increase the font file size. We use `ttfautohint` for hinting.
+    添加字体微调可以让图形在较小的情况下更清晰，
+    但是会增加字体文件大小。我们使用 `ttfautohint` 来微调。
   encoding: Encoding
-  encoding_pua: Private Use Area
+  encoding_pua: 专用区域
   encoding_pua_help: >
-    This is the most compatible selection for all browsers.
-    Also, these codes are ignored by screen readers. Used by default.
-  encoding_ascii: Text characters
+    这是对所有浏览器来说最复杂的部分。
+    同时，这些编码会被屏幕阅读器忽略掉。默认开启
+  encoding_ascii: 文本字符
   encoding_ascii_help: >
-    This encoding is convenient for designers, who plan to import
-    font into graphics software.
+    这种编码是为设计师准备的，可以方便将字体导入到图形软件。
   encoding_unicode: Unicode
   encoding_unicode_help: >
-    Try to follow the default glyph codes. This is useful when
-    your page is being viewed without the font installed, and you want to show similar
-    symbols instead. It doesn't help with all glyphs; PUA
-    encoding is probably a better choice.
+    尝试使用默认的图形编码。在你的字体没有被安装时查看页面的时候会非常有用，而且你也会倾向于简单的符号。
+    但并不是对所有的图形有用，PUA编码可能是一个更好的选择。
 
-  fieldset_metrics: Metrics
-  units_per_em: Units per em
-  ascent: Ascent
-  descent: Descent
-  baseline: Baseline
+  fieldset_metrics: 度量
+  units_per_em: 每em单位
+  ascent: 递增
+  descent: 递减
+  baseline: 基线
 
-  fieldset_development: Development
+  fieldset_development: 开发
   development_help: >
-    This is only for icon font developers, who use custom
-    icons to create new fonts.
-  fullname: Font Name
-  copyright: Copyright
+    本项只面向字体图标开发者。
+  fullname: 字体名
+  copyright: 版权
 
-  btn_save: Save
+  btn_save: 保存

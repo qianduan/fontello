@@ -1,7 +1,7 @@
-en-US:
+zh-CN:
   author: by
   license: "license:"
   notfound: Oops! Nothing found...
-  custom_icons_help: Drag custom SVG icons or SVG font here.
-  clear_all_icons: clear all icons
-  clear_selected_icons: clear selected icons
+  custom_icons_help: 拖拽SVG图标或者SVG字体到这里
+  clear_all_icons: 清除所有图标
+  clear_selected_icons: 清除选中图标

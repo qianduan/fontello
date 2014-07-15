@@ -1,5 +1,5 @@
-en-US:
-  title: iconfont - icon fonts generator
+zh-CN:
+  title: iconfont.io - icon fonts generator
   description: 自定义图标字体工具
   desc_long: >
     方便生成自定义图标字体，选择你需要的图标，然后就可以直接下载包含字体文件的demo了
@@ -8,9 +8,7 @@ en-US:
   menu_discuss: Ask in Google Groups
   menu_bugreports: 反馈bug
   menu_bugreports_help: >
-    We prefer to communicate via Github. Share you ideas with us there.
-    If you still don't have a Github account - it's time to join the biggest
-    open source community!
+    就在github上反馈问题吧，如果你还没有github账号，赶紧注册一个吧。
   menu_how_to_help: 如何提交自己的字体
 
   menu_donate: 腾讯设计通道

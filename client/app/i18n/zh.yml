@@ -1,4 +1,4 @@
-en-US:
+zh-CN:
   loading: Loading...
-  confirm_app_reset: Are you sure?
-  invalid_code: 'Glyph code U+#{hex} is invalid.'
+  confirm_app_reset: 确定要重置么?
+  invalid_code: '图标编码 U+#{hex} 无效'

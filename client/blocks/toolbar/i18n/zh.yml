@@ -1,32 +1,30 @@
-en-US:
-  download: Download webfont
-  save: Save session
-  export: Export font
+zh-CN:
+  download: 下载 webfont
+  save: 保存会话
+  export: 导出字体
 
-  file_name_placeholder: font name
+  file_name_placeholder: 字体名字
   file_name_help: |
-    This name will be used for font files too.
-    Use only lowercase "a"..."z" letters, digits, "-" and "_".
+    这个名字也会被用作字体文件。
+    只支持小写字母"a"..."z"、数字、"-"和"_"。
 
-  search_permalink_help: Permanent link to these search results
+  search_permalink_help: 指向这个搜索结果的永久连接
 
-  menu_unselect_all: Unselect glyphs
-  menu_reset_all: Reset all changes
-  menu_import: Import
+  menu_unselect_all: 未选择的图标
+  menu_reset_all: 重设所有
+  menu_import: 导入
   menu_import_help: >
-    Select config.json or the whole fontello's zip archive
-    to continue your work. Also you can import SVG images
-    and SVG fonts.
-  menu_css_prefix_text: 'CSS prefix:'
-  menu_css_use_suffix: add after icon name
+    选择 config.json 或者整个iconfont下载的zip包
+    你也可以直接导入SVG 图标或者SVG字体
+  menu_css_prefix_text: 'CSS 前缀:'
+  menu_css_use_suffix: 添加到图标名后面
 
-  menu_advanced_settings: Advanced font settings...
+  menu_advanced_settings: 高级字体设置...
 
   help_us: >
-    Are you a designer?
+    你是设计师吗？
     <a href="https://github.com/fontello/fontello/wiki/How-to-help"
-        target="_blank">You can help</a>
-    us improve fontello!
+        target="_blank">反馈一下或者帮我们改善iconfont服务吧</a>！    
   build_error: >
-    An error happened while processing your request:
-    <em>"#{error}"</em>. Please, try again later.
+    系统在处理你的请求时发生了错误:
+    <em>"#{error}"</em>。请稍后再试。
